@@ -1,6 +1,6 @@
 # Tour of Heroes - Angular Sample Project
 <p align="center">
-  <img src="./src/pngwing.com.png" alt="Texto alternativo de la imagen" width="200" height="250">
+  <img src="./src/pngwing.com.png" alt="imagen" width="200" height="250">
 </p>
 
 
