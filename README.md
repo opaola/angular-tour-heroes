@@ -1,6 +1,6 @@
 # Tour of Heroes - Angular Sample Project
 
-![Tour of Heroes](hero-app.png)
+![Tour of Heroes](pngwing.com.png)
 
 Este es un proyecto de ejemplo de "Tour of Heroes" proporcionado por Angular. Es una aplicación simple que muestra una lista de héroes y permite ver los detalles de cada héroe, así como buscar héroes por nombre.
 
