@@ -1,5 +1,5 @@
 # Tour of Heroes - Angular Sample Project
-<img src="./src/pngwing.com.png" alt="Texto alternativo de la imagen" width="150" height="150">
+<img src="./src/pngwing.com.png" alt="Texto alternativo de la imagen" width="200" height="200">
 
 Este es un proyecto de ejemplo de "Tour of Heroes" proporcionado por Angular. Es una aplicación simple que muestra una lista de héroes y permite ver los detalles de cada héroe, así como buscar héroes por nombre.
 
