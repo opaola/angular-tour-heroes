@@ -1,0 +1,58 @@
+<router-outlet></router-outlet>
+<div class="container">
+  <h1>Tour Heroes de la Ciencia 🚀⚗️🧪</h1>
+
+  <h3>Hola, soy {{ person.name }}, tengo {{ person.age }} años y quiero saber más acerca de los héroes sin capa más importantes de la historia de la ciencia.</h3>
+
+  <img class="image" [src]="img" style="width:100px; height: auto;" />
+
+  <p>Cual es tu nombre?</p>
+
+  <input type="text" required #nameInput='ngModel' [(ngModel)]='person.name' />
+
+  <p class="message-error" [ngClass]="{
+  'valid': nameInput.valid,
+  'invalid': nameInput.invalid
+  }">{{ nameInput.valid ? '👍' : 'El campo es requerido' }}</p>
+
+  <p>Qué edad tienes?</p>
+
+  <progress max='100' [value]='person.age'></progress>
+
+  <div>
+    <button (click)="increaseAge()">+</button>
+    <button (click)="decreaseAge()">-</button>
+
+    <input type="number" required #ageInput='ngModel' [(ngModel)]="person.age" />
+    <p class="message-error" [ngClass]="{
+    'valid': ageInput.valid,
+    'invalid': ageInput.invalid
+    }">{{ ageInput.valid ? '👍' : 'El campo es requerido' }}</p>
+  </div>
+
+  <ng-container *ngIf="person.name === 'Paola Osorio' && person.age === 31; ">
+    <p>Eres Administrador 🚀</p>
+  </ng-container>
+
+  <ng-container *ngIf="person.name === 'Mauricio' && person.age === 40;">
+    <p>Bienvenido Profesor {{ person.name }} 💼</p>
+  </ng-container>
+
+  <!--<ng-template #specialSection>
+    <p class="quien-eres">Bienvenid@ {{ person.name }} 😊</p>
+  </ng-template>-->
+
+  <div>
+    <button (click)="toggleButton()">Estoy List@ 👩‍🚀👌</button>
+  </div>
+
+  <div>
+    <button [disabled]="btnDisabled">Entrar</button>
+  </div>
+
+  <div class="box" (scroll)="onScroll($event)">
+    <p>Los científicos también son héroes porque su dedicación y valentía en la búsqueda del conocimiento y la
+      comprensión del mundo han impactado positivamente en la humanidad 🌎.</p>
+  </div>
+</div>
+<app-heroes></app-heroes>
