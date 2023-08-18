@@ -1,6 +1,6 @@
 # Tour de Heroes de la Ciencia 🚀⚗️🧪
 <p align="center">
-  <img src="./src/assets/image/marie2.png" alt="imagen" width="200" height="250">
+  <img src="./src/assets/image/marie2.png" alt="imagen" width="200" height="200">
 </p>
 
 Este proyecto es una aplicación web desarrollada con Angular que destaca a algunos de los héroes de la historia de la ciencia. En lugar de capas y superpoderes, estos héroes se destacan por su dedicación y valentía en la búsqueda del conocimiento y la comprensión del mundo. La aplicación te permite interactuar y aprender más sobre estos héroes, así como participar en la comunidad científica virtual.
